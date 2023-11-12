@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dfcdcf;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    background-color: #dec3c6;
+    transition: background 0.2s linear;
+    padding: 22px;
+}
+
+.startpage {
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 9px;
+    letter-spacing: 1.3px;
+    position: relative;
+    right: 25px;
+
+    &:hover {
+        color: #b48291;
+        transition: .2s;
+    }
+}
+
+.aboutme {
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 9px;
+    letter-spacing: 1.3px;
+    position: relative;
+    right: 10px;
+
+    &:hover {
+        color: #b48291;
+        transition: .2s;
+    }
+}
+
+.projects {
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 9px;
+    letter-spacing: 1.3px;
+    position: relative;
+
+    right: -10px;
+
+    &:hover {
+        color: #b48291;
+        transition: .2s;
+    }
+}
+
+.cv {
+  color: black;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 9px;
+  letter-spacing: 1.3px;
+  position: relative;
+  right: -25px;
+
+  &:hover {
+      color: #b48291;
+      transition: .2s;
+  }
+}
+
+nav {
+    display: flex;
+}
+
+section {
+    padding: 2em;
+}
+
+.social-links a{
+    display: inline-block;
+    justify-content: center;
+    flex-direction: row;
+    padding: 4px;
+  }
+
+  .fa-twitter { 
+    color: black; 
+    &:hover {
+      color: #b48291;
+      transition: .3s;
+    }
+  }
+
+  .fa-github {
+    color: black;
+    &:hover {
+      color: #b48291;
+      transition: .3s;
+    }
+  }
+
+  .fa-discord {
+    color: black;
+    &:hover {
+      color: #b48291;
+      transition: .3s;
+    }
+  }
+
+  .fa-instagram {
+   color: black;
+    &:hover {
+      color: #b48291;
+      transition: .3s;
+    }
+  }
+
+  .social-links {
+    position: absolute;
+    left: 1700px;
+    bottom: 910px;
+    letter-spacing: 2.0px;
+  }
+
+  .cv-heading {
+    font-family: 'Lora';
+    font-size: 45px;
+    text-align: center;
+    color: #211002;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.cv-image {
+  position: relative;
+  width: 30%;
+  bottom: 10px;
+  left: 655px;
+  border-radius: 50px;
+  box-shadow: rgba(184, 152, 190, 0.89) 5px 10px 10px 5px;
+ }
+
+  .footer {
+    background-color: #dec3c6;
+    padding: 20px;
+    margin-top: 90px;
+  }
+  
+  p {
+    font-family: 'Nunito Sans';
+    left: 800px;
+  }
+

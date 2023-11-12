@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <div id="particles-js"></div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Nunito+Sans:opsz,wght@6..12,200&display=swap" rel="stylesheet">
+    <title>Irmak Lare Dag</title>
+</head>
+<body>
+  
+    <header class="navbar">
+        <nav>
+            <a href="index.html" class="startpagina">STARTPAGINA</a>
+            <a href="index.html" class="overmij">OVER MIJ</a>
+            <a href="./src/projects.html" class="projecten">PROJECTEN</a>
+            <a href="./src/cv.html" class="cv">C.V</a>
+        </nav>
+    </header>
+
+    <section class="seasons-intro">
+        <div class="seasons">
+          <div class="seasons-text">
+            <h1>Welkom!</h1>
+            <p>
+              Welkom op mijn website
+        </p>
+          </div>
+          <div class="social">
+            <div class="social-links">
+              <a href="https://twitter.com/"><i class="fab fa-twitter" style="font-size: 1.2em;"></i></a>
+              <a href="https://github.com/rxvxr"><i class="fab fa-github" style="font-size: 1.2em;"></i></a>
+              <a href="https://discord.gg/"><i class="fab fa-discord" style="font-size: 1.2em;"></i></a>
+              <a href="https://instagram.com/"><i class="fab fa-instagram" style="font-size: 1.2em;"></i></a>
+            </div>
+          </div>
+        </div>
+        <img src="/images/logobtn.png" alt="Seasons Logo" class="seasons-logo" />
+      </section>
+      <section class="gamefeatures" id="gamefeatures">
+  <div class="container">
+    <h1 class="section-heading">Over mij</h1>
+    <div class="row-grid">
+        <div class="card-liquidity">
+            <div class="card-body-liquidity">
+              <h class="card-title-liquidity">Hallo! Mijn naam Irmak Dag en ik zijn een 18-jarige softwareontwikkelaar. Etnisch gezien ben ik Turks, maar ben geboren in Nederland. Ik heb gestudeerd aan de Internationale School in Groningen en ben daarna doorgestroomd naar het Alfa College havo.  Aan het einde van het jaar keek ik naar carrièrepaden die ik kon doen en kwam terecht op de website van Alfa-College voor Software Developer. Van jongs af aan codeerde ik en zat ik altijd achter de computer. Ik heb genoten van de kennis en games die ik kon ontdekken. Een van mijn grootste invloeden is mijn vader, hij houdt van coderen en alles wat met computers en technologie in het algemeen te maken heeft. Hij leerde me dingen en hielp me zelfs met mijn eerste computer en hielp me alles op te zetten, het grootste deel van mijn kennis kwam van hem. Door zijn gebrek aan Nederlands kon hij niet de studie doen die hij wilde, dus ik vind het leuk om te weten dat dit iets is dat ik kan volgen als carrièrepad. Naast coderen houd ik ook van volleybal, gamen, muziek en bakken. Tot covid was ik een redelijk goede volleybalspeler. Ik speelde vijf uur per dag en ging zelfs naar de volleybalschool, daarnaast speelde ik spelletjes op mijn computer en luisterde ik graag naar muziek en bakte ik eten voor mijn gezin om te proberen. Soms gaan mijn recepten niet goed, wat altijd een nieuwe les voor mij is. Ik werkte bij de big bazaar, holland & barrett en nu bij de Superdry en ICT hulp. 
+                </h>
+             </div>
+              <img src="./images/Nijntje.jpg" alt="Profile" class="profile-image">
+          </div>
+      </div>
+  </div>
+  </div>
+</section>
+<div class ="contact-heading">
+  <h1 class="contact-heading">Contact Mij</h1>
+</div>
+<div class="contact-container">
+  <div class="contact-info">
+      <h2>Contact Informatie</h2>
+      <h3>Phone: +(31)0613128259</h3>
+      <h3>Email: Irmaklare@gmail.com</h3>
+  </div>
+  <div class="contactform">
+      <h2>Contact mij</h2>
+      <form action="#" method="post">
+          <div class="form-group">
+              <label for="firstname">Naam:</label>
+              <input type="text" id="naam" name="naam" required>
+          </div>
+          <div class="form-group">
+            <label for="lastname">Achter Naam:</label>
+            <input type="text" id="achterNaam" name="achternaam" required>
+        </div>
+          <div class="form-group">
+              <label for="email">Uw Email:</label>
+              <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="headtopic">Onderwerp:</label>
+            <input type="headtopic" id="onderwerp" name="onderwerp" required>
+        </div>
+          <div class="form-group">
+              <label for="message">Uw Bericht:</label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+          <div class="form-group">
+            <button type="button" onclick="sendMessage()">Stuur Bericht</button>
+        </div>
+      </form>
+      <div id="formStatus" class="hidden"></div>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>&copy; Irmak Lare Dag @ 2023 - 2024</p>
+</footer>
+
+<script>
+  function sendMessage() {
+  document.getElementById('formStatus').innerHTML = 'Sending...';
+  setTimeout(function() {
+    document.getElementById('formStatus').innerHTML = 'Message sent successfully!';
+    document.getElementById('formStatus').style.color = '#4CAF50';
+  }, 2000);
+}
+</script>
+</body>
+</html>

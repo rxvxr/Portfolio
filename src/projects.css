@@ -1,0 +1,345 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dfcdcf
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    background-color: #dec3c6;
+    transition: background 0.2s linear;
+    padding: 22px;
+}
+
+.startpagina {
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 9px;
+    letter-spacing: 1.3px;
+    position: relative;
+    right: 0px;
+
+    &:hover {
+        color: #b48291;
+        transition: .2s;
+    }
+}
+
+.overmij {
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 9px;
+    letter-spacing: 1.3px;
+    position: relative;
+    right: -15px;
+
+    &:hover {
+        color: #b48291;
+        transition: .2s;
+    }
+}
+
+.projecten {
+  color: black;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 9px;
+  letter-spacing: 1.3px;
+  position: relative;
+  right: -30px;
+
+  &:hover {
+      color: #b48291;
+      transition: .2s;
+  }
+}
+
+.cv {
+  color: black;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 9px;
+  letter-spacing: 1.3px;
+  position: relative;
+  right: -45px;
+
+  &:hover {
+      color: #b48291;
+      transition: .2s;
+  }
+}
+
+nav {
+    display: flex;
+}
+
+section {
+    padding: 2em;
+}
+
+.seasons-intro {
+    display: flex;
+    background-color: #dfcdcf;
+    transition: background 0.2s linear; 
+    padding: 100px;
+  }
+
+  .seasons-text {
+    text-align: left;
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  
+  h1 {
+    color: #31242e; 
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: 'Lora', serif;
+    line-height: 80px;
+    position: absolute;
+    top: 95px;
+    left: 400px;
+  }
+
+  p {
+    font-family: 'Nunito Sans Extralight', sans-serif;
+    font-weight: 600;
+    text-align: justify;
+    color: #281f26;
+    position: absolute;
+    left: 400px;
+    bottom: 655px;
+  }
+
+  .seasons-logo {
+    width: 25%;
+    position: absolute;
+    left: 1000px;
+    bottom: 530px;
+
+    &:hover {
+      transform: rotate(10deg);
+      transition: transform 0.9s ease-in-out;
+    }
+
+  }
+
+  .social-links a{
+    display: inline-block;
+    justify-content: center;
+    flex-direction: row;
+    padding: 4px;
+  }
+
+  .fa-twitter { 
+    color: black; 
+    &:hover {
+      color: #b48291;
+      transition: .3s;
+    }
+  }
+
+  .fa-github {
+    color: black;
+    &:hover {
+      color: #b48291;
+      transition: .3s;
+    }
+  }
+
+  .fa-discord {
+    color: black;
+    &:hover {
+      color: #b48291;
+      transition: .3s;
+    }
+  }
+
+  .fa-instagram {
+   color: black;
+    &:hover {
+      color: #b48291;
+      transition: .3s;
+    }
+  }
+
+  section .social-links {
+    position: absolute;
+    left: 1700px;
+    bottom: 910px;
+    letter-spacing: 2.0px;
+  }
+
+
+
+  .container {
+    width: 100%;
+    padding-bottom: 680px;
+    transition: background 0.2s linear;
+    background-color: #dfcdcf;;
+  }
+
+  .section-heading {
+    font-family: 'Lora';
+    font-size: 45px;
+    text-align: center;
+    color: #211002;
+    font-weight: 700;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin-bottom: 0;
+    position: absolute;
+    top: 500px;
+    left: 850px;
+}
+  
+  .row-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 90px;
+  }
+
+  .gamefeatures {
+    padding: 0px;
+  }
+
+  .profile-image {
+   max-width: 335px;
+   position: absolute;
+   bottom: -1px;
+   right: 1330px;
+   border-top-left-radius: 50px;
+   border-bottom-left-radius: 50px;
+  }
+
+  .card-liquidity {
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: white;
+    max-width: 70%;
+    box-shadow: rgba(182, 166, 166, 0.89) 5px 5px 10px;
+    transition: background 0.2s linear; 
+    position: absolute;
+    right: 90px;
+    top: 650px;
+  }
+  
+  .card-title-liquidity {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    max-width: 100%;
+    margin-left: auto;
+  }
+  
+  
+  .card-body-liquidity {
+    flex: 1 1 auto;
+    height: 405px;
+    padding: 1.25rem;
+  }
+
+  .contact-heading {
+    font-family: 'Lora';
+    font-size: 45px;
+    text-align: center;
+    color: #211002;
+    font-weight: 700;
+    text-transform: uppercase;
+    top: 1120px;
+    left: 820px;
+}
+
+  .contact-container {
+    display: flex;
+    max-width: 1450px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(79, 67, 82, 0.3);
+    background: linear-gradient(to bottom, #e7d4d8, #e8c9cd, #e4ced1, #E8C9CD, #e7d3d6);        
+    position: relative;
+    left: 265px;
+    top: 150px;
+    margin-bottom: 200px;
+    font-family: 'Nunito Sans';
+}
+
+.contact-info {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.contact-info h2 {
+    color: #333;
+    font-family: 'Nunito Sans';
+}
+
+.contactform {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  border-left: 1px solid #ddd;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  }
+
+ .form-group textarea {
+  resize: vertical;
+  border-radius: 10px;
+  }
+
+.form-group button {
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #dec3c6;
+  padding: 50px;
+}
+
+.footer p {
+  top: 2010px;
+  left: 880px;
+  font-family: 'Nunito Sans';
+}
